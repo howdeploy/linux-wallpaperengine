@@ -14,6 +14,13 @@
 
 # 🖼️ Linux Wallpaper Engine
 
+## KISA wallpaper memory fixes
+
+The `fix/wallpaper-memory-20261103` branch combines the existing asynchronous
+MPRIS/D-Bus repair with a separate [mpv memory patch kit](contrib/wallpaper-memory/README.md).
+It documents the pinned OpenGL-fence and NVDEC fixes, private-runtime integration
+and the limits of the earlier local memory observations.
+
 Bring **Wallpaper Engine**-style live wallpapers to Linux! This project allows you to run animated wallpapers from Steam’s Wallpaper Engine right on your desktop.
 
 > ⚠️ This is an educational project that evolved into a functional OpenGL-based wallpaper engine for Linux. Expect some limitations and quirks!
